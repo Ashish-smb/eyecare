@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .container-base {
+        @apply container mx-auto px-0;
+    }
+    .g-cols2 {
+        @apply grid lg:grid-cols-2 gap-6;
+    }
+    .g-cols3 {
+        @apply grid lg:grid-cols-3 gap-6;
+    }
+    .g-cols4 {
+        @apply grid lg:grid-cols-4 gap-6;
+    }
+    .g-cols5 {
+        @apply grid lg:grid-cols-5 gap-6;
+    }
+
+    .title {}
+    .title-sm {}
+    .title-md {}
+    .title-lg {}
+    .title-xl {}
+}

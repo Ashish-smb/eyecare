@@ -554,49 +554,57 @@ video {
   --tw-contain-style:  ;
 }
 
-.container {
+.container-base {
   width: 100%;
 }
 
 @media (min-width: 640px) {
-  .container {
+  .container-base {
     max-width: 640px;
   }
 }
 
 @media (min-width: 768px) {
-  .container {
+  .container-base {
     max-width: 768px;
   }
 }
 
 @media (min-width: 1024px) {
-  .container {
+  .container-base {
     max-width: 1024px;
   }
 }
 
 @media (min-width: 1280px) {
-  .container {
+  .container-base {
     max-width: 1280px;
   }
 }
 
 @media (min-width: 1536px) {
-  .container {
+  .container-base {
     max-width: 1536px;
   }
 }
 
-.mx-auto {
+.container-base {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.w-\[50\%\] {
-  width: 50%;
+.g-cols2 {
+  display: grid;
+  gap: 1.5rem;
 }
 
-.border {
-  border-width: 1px;
+@media (min-width: 1024px) {
+  .g-cols2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.title {
 }
