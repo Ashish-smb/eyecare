@@ -30,8 +30,19 @@
     .hero-area .hero-area-eyecare .img img {
         @apply w-full border;
     }
+    
+
+    /* .qualified-doctors .owl-nav button {
+        @apply absolute top-1/3;
+    }
+    .qualified-doctors button.owl-next {
+        @apply right-0;
+    }
+    .qualified-doctors button.owl-prev {
+        @apply left-0;
+    } */
     .container-base {
-        @apply container mx-auto;
+        @apply container mx-auto px-16;
     }
     .g-cols2 {
         @apply grid lg:grid-cols-2 gap-6 m-0;

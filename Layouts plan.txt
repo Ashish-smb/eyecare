@@ -38,7 +38,7 @@ hero area
 service section
 
 
-eyes services in products / carousel
+eyes services in products 
 three columns
 two rows
 1st row

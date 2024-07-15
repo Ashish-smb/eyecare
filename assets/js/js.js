@@ -7,9 +7,10 @@ $('.hero-area-eyecare').owlCarousel({
     dots:true,
     nav:true,
 });
-$('.eye-service-carousel').owlCarousel({
-    items:4,
-    margin:20,
-    autoplay:true,
-    loop:true,
+$('.qualified-doctors-carousel').owlCarousel({
+    items:3,
+    margin:10,
+    loop: true,
+    dots:true,
+    nav:true,
 });
