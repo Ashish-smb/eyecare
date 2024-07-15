@@ -14,3 +14,13 @@ $('.qualified-doctors-carousel').owlCarousel({
     dots:true,
     nav:true,
 });
+
+document.querySelector("#toggle-btn").addEventListener("click", () => {
+    if(document.querySelector("#toggle-menu").classList.contains("hidden")){
+        document.querySelector("#toggle-menu").classList.toggle("block");
+        document.querySelector("#toggle-menu").classList.toggle("hidden");
+    }else{
+        document.querySelector("#toggle-menu").classList.toggle("block");
+        document.querySelector("#toggle-menu").classList.toggle("hidden");
+    }
+})

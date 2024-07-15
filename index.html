@@ -37,15 +37,19 @@
    </div>
 
    <!-- navbar -->
-   <nav class="navbar bg-black">
-        <div class="container-base flex-wrap flex justify-between items-center py-3">
-            <div class="log flex items-center">
-                <img src="https://www.delhieyecentre.in/wp-content/uploads/2024/04/DEC_Logo-Original.png" class="h-6 mr-3 sm:h-10" alt="">
-                <span class="uppercase text-xl text-white">eyecare</span>
+   <nav class="bg-black">
+        <div class="container-base flex-wrap lg:flex lg:justify-between items-center py-3">
+            <div class="flex justify-between">
+                <a href="#" class="logo flex items-center">
+                    <img src="https://www.delhieyecentre.in/wp-content/uploads/2024/04/DEC_Logo-Original.png" class="h-6 mr-3 sm:h-10" alt="">
+                    <span class="uppercase text-xl text-white">eyecare</span>
+                </a>
+                <button class="lg:hidden block bg-gray-200 text-black py-1 px-2" id="toggle-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
 
-            <div class="navbar-menu flex-wrap flex justify-between">
-                <ul class="flex">
+                <ul class="hidden lg:flex" id="toggle-menu">
                     <li>
                         <a href="javascript:void(0)" class="capitalize text-gray-400 mx-4 font-semibold dark:hover:text-white ">home</a>
                     </li>
@@ -68,7 +72,6 @@
                         <a href="javascript:void(0)" class="capitalize text-gray-400 mx-4 font-semibold dark:hover:text-white ">contact</a>
                     </li>
                 </ul>            
-            </div>
         </div>
    </nav>
 
